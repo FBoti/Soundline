@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Események - Soundline</title>
+<meta name="description" content="Próbák, fellépések és közös programok.">
+<link rel="icon" type="image/png" href="img/favicon-192.png">
+<link rel="stylesheet" href="css/alap.css">
+<link rel="stylesheet" href="css/naptar.css">
+</head>
+<body>
+
+
+
+<!-- FEJLÉC (minden oldalon ugyanaz) -->
+<header class="fejlec">
+  <div class="wrap">
+    <a href="index.html"><img src="img/logo-sotet-hatterre.png" alt="Soundline"></a>
+    <nav class="menu"><a href="index.html">Főoldal</a><a href="naptar.html" class="aktiv">Események</a><a href="kottak.html">Kották</a><a href="galeria.html">Galéria</a><a href="rolunk.html">Rólunk</a><a href="belepes.html">Belépés</a></nav>
+  </div>
+</header>
+
+
+
+
+<main>
+<section class="oldalfej"><div class="wrap"><h1>Események</h1><p>Próbák, fellépések és közös programok.</p></div></section>
+
+
+
+
+<section class="szekcio">
+  <div class="wrap">
+    <div class="szuro" id="szuro">
+      <button class="kivalasztott" data-tipus="mind">Mind</button>
+      <button data-tipus="proba">Próba</button>
+      <button data-tipus="fellepes">Fellépés</button>
+      <button data-tipus="egyeb">Egyéb</button>
+    </div>
+
+    <!-- Ide tölti be az eseményeket a naptar.js -->
+    <div id="esemenyek"></div>
+  </div>
+</section>
+
+
+
+<section class="szekcio szekcio-homok">
+  <div class="wrap">
+    <h2>Új esemény</h2>
+    <p>Karmester/Admin jogosult az esemény létrehozásához</p>
+    <form id="uj-esemeny" class="kartya urlap-szelesseg">
+      <label for="cim">Cím</label>
+      <input id="cim" type="text" placeholder="Pl. Heti próba">
+      <label for="tipus">Típus</label>
+      <select id="tipus">
+        <option value="proba">Próba</option>
+        <option value="fellepes">Fellépés</option>
+        <option value="egyeb">Egyéb</option>
+      </select>
+      <label for="datum">Dátum</label>
+      <input id="datum" type="date">
+      <label for="ido">Kezdés</label>
+      <input id="ido" type="time">
+      <label for="hely">Helyszín</label>
+      <input id="hely" type="text" placeholder="Pl. Zeneiskola">
+      <button class="gomb gomb-barna" type="submit">Esemény hozzáadása</button>
+      <div class="uzenet" id="esemeny-uzenet"></div>
+    </form>
+  </div>
+</section>
+</main>
+
+
+
+<!-- LÁBLÉC (minden oldalon ugyanaz) -->
+<footer class="lablec">
+  <div class="wrap">
+    <div>
+      <img class="logo" src="img/logo-sotet-hatterre.png" alt="Soundline">
+      <p>A zenekar mindennapjai egy helyen.</p>
+      <div class="kozosseg">
+        <a href="#" title="Facebook"><img src="img/Facebook.png" alt="Facebook"></a>
+        <a href="#" title="Instagram"><img src="img/Instagram.png" alt="Instagram"></a>
+      </div>
+    </div>
+    <div><a href="index.html">Főoldal</a><a href="naptar.html">Események</a><a href="kottak.html">Kották</a><a href="galeria.html">Galéria</a><a href="rolunk.html">Rólunk</a><a href="belepes.html">Belépés</a></div>
+    <p class="kicsi">Vizsgaremek projekt, 2026.<br>Farkas Botond<br>Simon-Kovács Gergő<br>Szlivka Ákos Zoltán</p>
+  </div>
+</footer>
+
+
+
+
+<script src="js/naptar.js"></script>
+</body>
+</html>

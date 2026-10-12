@@ -1,0 +1,5 @@
+/* ESEMÉNYEK stílusai */
+.esemeny { background: white; border: 1px solid var(--homok); border-radius: 10px; padding: 16px 20px; margin-bottom: 12px; }
+.esemeny h3 { margin: 6px 0 4px; }
+.esemeny p { margin: 0; color: var(--kozepbarna); }
+.urlap-szelesseg { max-width: 500px; }
