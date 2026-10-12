@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Galéria - Soundline</title>
+<meta name="description" content="A zenekar fellépéseinek, próbáinak és közös programjainak fotói.">
+<link rel="icon" type="image/png" href="img/favicon-192.png">
+<link rel="stylesheet" href="css/alap.css">
+<link rel="stylesheet" href="css/galeria.css">
+</head>
+<body>
+
+
+
+
+<!-- FEJLÉC (minden oldalon ugyanaz) -->
+<header class="fejlec">
+  <div class="wrap">
+    <a href="index.html"><img src="img/logo-sotet-hatterre.png" alt="Soundline"></a>
+    <nav class="menu"><a href="index.html">Főoldal</a><a href="naptar.html">Események</a><a href="kottak.html">Kották</a><a href="galeria.html" class="aktiv">Galéria</a><a href="rolunk.html">Rólunk</a><a href="belepes.html">Belépés</a></nav>
+  </div>
+</header>
+
+
+
+
+<main>
+<section class="oldalfej"><div class="wrap"><h1>Galéria</h1><p>A fellépések, próbák és közös programok pillanatai.</p></div></section>
+
+
+
+<section class="szekcio">
+  <div class="wrap">
+    <div class="szuro" id="szuro">
+      <button class="kivalasztott" data-album="mind">Mind</button>
+      <button data-album="fellepes">Fellépések</button>
+      <button data-album="proba">Próbák</button>
+      <button data-album="kozos">Közös programok</button>
+    </div>
+
+    <!-- Ide tölti be a képhelyeket a galeria.js -->
+    <div class="kepek" id="kepek"></div>
+    <p>A színes mezők a későbbi fotók helyét jelölik. A fotófeltöltés a következő mérföldkőben készül el.</p>
+  </div>
+</section>
+</main>
+
+
+
+
+<!-- LÁBLÉC (minden oldalon ugyanaz) -->
+<footer class="lablec">
+  <div class="wrap">
+    <div>
+      <img class="logo" src="img/logo-sotet-hatterre.png" alt="Soundline">
+      <p>A zenekar mindennapjai egy helyen.</p>
+      <div class="kozosseg">
+        <a href="#" title="Facebook"><img src="img/Facebook.png" alt="Facebook"></a>
+        <a href="#" title="Instagram"><img src="img/Instagram.png" alt="Instagram"></a>
+      </div>
+    </div>
+    <div><a href="index.html">Főoldal</a><a href="naptar.html">Események</a><a href="kottak.html">Kották</a><a href="galeria.html">Galéria</a><a href="rolunk.html">Rólunk</a><a href="belepes.html">Belépés</a></div>
+    <p class="kicsi">Vizsgaremek projekt, 2026.<br>Farkas Botond<br>Simon-Kovács Gergő<br>Szlivka Ákos Zoltán</p>
+  </div>
+</footer>
+
+
+
+
+
+<script src="js/galeria.js"></script>
+</body>
+</html>
