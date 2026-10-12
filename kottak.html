@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kották - Soundline</title>
+<meta name="description" content="A zenekar repertoárja szólam szerint szűrhetően.">
+<link rel="icon" type="image/png" href="img/favicon-192.png">
+<link rel="stylesheet" href="css/alap.css">
+<link rel="stylesheet" href="css/kottak.css">
+</head>
+<body>
+
+
+  
+<!-- FEJLÉC (minden oldalon ugyanaz) -->
+<header class="fejlec">
+  <div class="wrap">
+    <a href="index.html"><img src="img/logo-sotet-hatterre.png" alt="Soundline"></a>
+    <nav class="menu"><a href="index.html">Főoldal</a><a href="naptar.html">Események</a><a href="kottak.html" class="aktiv">Kották</a><a href="galeria.html">Galéria</a><a href="rolunk.html">Rólunk</a><a href="belepes.html">Belépés</a></nav>
+  </div>
+</header>
+
+
+
+<main>
+<section class="oldalfej"><div class="wrap"><h1>Kották</h1><p>Szűrj a saját szólamodra, és megtalálod, amit játszanod kell.</p></div></section>
+
+
+
+
+<section class="szekcio">
+  <div class="wrap">
+    <div class="kereses">
+      <div>
+        <label for="kereses">Keresés</label>
+        <input id="kereses" type="text" placeholder="Cím vagy szerző">
+      </div>
+      <div>
+        <label for="szolam">Szólam</label>
+        <select id="szolam">
+          <option value="mind">Minden szólam</option>
+          <option value="Piccolo">Piccolo</option>
+          <option value="Fuvola">Fuvola</option>
+          <option value="Klarinet">Klarinét</option>
+          <option value="Alt-Szaxofon">Alt-Szaxofon</option>
+          <option value="Trombita">Trombita</option>
+          <option value="Kurt">Kürt</option>
+          <option value="Tenor-Szaxofon">Tenor-Szaxofon</option>
+          <option value="Baritonkurt">Baritonkürt</option>
+          <option value="Harsona">Harsona</option>
+          <option value="Tuba">Tuba</option>
+          <option value="Dobszereles">Dobszerelés</option>
+          <option value="utoshangszerek">Ütős hangszerek</option>
+        </select>
+      </div>
+    </div>
+
+
+    <p id="darab"></p>
+    <!-- Ide tölti be a kottákat a kottak.js -->
+    <div id="kotta-lista"></div>
+
+
+    <div class="kartya hamarosan">
+      <h3>Kotta feltöltése (hamarosan)</h3>
+      <p>A karnagy itt tölti majd fel az új kottákat. Ez a funkció a következő mérföldkőben készül el.</p>
+      <button class="gomb" disabled>Fájl kiválasztása</button>
+    </div>
+
+
+  </div>
+</section>
+</main>
+
+
+
+
+<!-- LÁBLÉC (minden oldalon ugyanaz) -->
+<footer class="lablec">
+  <div class="wrap">
+    <div>
+      <img class="logo" src="img/logo-sotet-hatterre.png" alt="Soundline">
+      <p>A zenekar mindennapjai egy helyen.</p>
+      <div class="kozosseg">
+        <a href="#" title="Facebook"><img src="img/Facebook.png" alt="Facebook"></a>
+        <a href="#" title="Instagram"><img src="img/Instagram.png" alt="Instagram"></a>
+      </div>
+    </div>
+    <div><a href="index.html">Főoldal</a><a href="naptar.html">Események</a><a href="kottak.html">Kották</a><a href="galeria.html">Galéria</a><a href="rolunk.html">Rólunk</a><a href="belepes.html">Belépés</a></div>
+    <p class="kicsi">Vizsgaremek projekt, 2026.<br>Farkas Botond<br>Simon-Kovács Gergő<br>Szlivka Ákos Zoltán</p>
+  </div>
+</footer>
+
+
+
+
+
+<script src="js/kottak.js"></script>
+</body>
+</html>
