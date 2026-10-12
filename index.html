@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Főoldal - Soundline</title>
+<meta name="description" content="Fúvószenekarok szervezője: események, kották és galéria.">
+<link rel="icon" type="image/png" href="img/favicon-192.png">
+<link rel="stylesheet" href="css/alap.css">
+<link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+
+
+
+  
+<!-- FEJLÉC (minden oldalon ugyanaz) -->
+<header class="fejlec">
+  <div class="wrap">
+    <a href="index.html"><img src="img/logo-sotet-hatterre.png" alt="Soundline"></a>
+    <nav class="menu"><a href="index.html" class="aktiv">Főoldal</a><a href="naptar.html">Események</a><a href="kottak.html">Kották</a><a href="galeria.html">Galéria</a><a href="rolunk.html">Rólunk</a><a href="belepes.html">Belépés</a></nav>
+  </div>
+</header>
+
+
+
+<main>
+
+
+
+
+<!-- Bemutatkozás + következő esemény -->
+<section class="oldalfej">
+  <div class="wrap hero">
+    <div class="hero-szoveg">
+      <h1>A zenekar mindennapjai egy helyen</h1>
+      <p>Próbák, fellépések, kották és közös fotók ott, ahol minden tag megtalálja őket.</p>
+      <br>
+      <a class="gomb" href="naptar.html">Események megnyitása</a>
+    </div>
+    <div class="kovetkezo">
+      <p class="cimke cimke-fellepes">Következő esemény</p>
+      <h2>Őszi koncert a főtéren</h2>
+      <p>2026. október 24., szombat, 17:00<br>Városi főtér, színpad</p>
+      <p><strong>Jössz?</strong></p>
+      <button class="valasz" data-valasz="Jövök">Jövök</button>
+      <button class="valasz" data-valasz="Talán">Talán</button>
+      <button class="valasz" data-valasz="Nem jövök">Nem jövök</button>
+      <div class="uzenet" id="valasz-uzenet"></div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<!-- Három fő funkció -->
+<section class="szekcio">
+  <div class="wrap">
+    <h2>Három dolog, egy helyen</h2>
+    <div class="harom">
+      <div class="kartya">
+        <h3>Események</h3>
+        <p>Próbák és fellépések naptára. A tagok egy kattintással visszajeleznek.</p>
+        <a href="naptar.html">Összes esemény</a>
+      </div>
+      <div class="kartya">
+        <h3>Kották</h3>
+        <p>A repertoár szólam szerint szűrhetően.</p>
+        <a href="kottak.html">Kották megnyitása</a>
+      </div>
+      <div class="kartya">
+        <h3>Galéria</h3>
+        <p>A fellépések és közös programok fotói.</p>
+        <a href="galeria.html">Galéria megnyitása</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<!-- Hogyan működik -->
+<section class="szekcio szekcio-homok">
+  <div class="wrap">
+    <h2>Így működik egy esemény</h2>
+    <ol>
+      <li>A karnagy felveszi az eseményt (cím, időpont, helyszín).</li>
+      <li>A tagok visszajeleznek: jövök, talán vagy nem jövök.</li>
+      <li>A karnagy látja, hányan jönnek.</li>
+    </ol>
+  </div>
+</section>
+
+
+
+
+<section class="szekcio" style="text-align:center">
+  <div class="wrap">
+    <h2>Készen állsz a következő próbára?</h2>
+    <a class="gomb gomb-barna" href="belepes.html">Belépés</a>
+  </div>
+</section>
+
+
+
+
+</main>
+<!-- LÁBLÉC (minden oldalon ugyanaz) -->
+<footer class="lablec">
+  <div class="wrap">
+    <div>
+      <img class="logo" src="img/logo-sotet-hatterre.png" alt="Soundline">
+      <p>A zenekar mindennapjai egy helyen.</p>
+      <div class="kozosseg">
+        <a href="#" title="Facebook"><img src="img/Facebook.png" alt="Facebook"></a>
+        <a href="#" title="Instagram"><img src="img/Instagram.png" alt="Instagram"></a>
+      </div>
+    </div>
+    <div><a href="index.html">Főoldal</a><a href="naptar.html">Események</a><a href="kottak.html">Kották</a><a href="galeria.html">Galéria</a><a href="rolunk.html">Rólunk</a><a href="belepes.html">Belépés</a></div>
+    <p class="kicsi">Vizsgaremek projekt, 2026.<br>Farkas Botond<br>Simon-Kovács Gergő<br>Szlivka Ákos Zoltán</p>
+  </div>
+</footer>
+
+
+
+
+<script src="js/index.js"></script>
+</body>
+</html>

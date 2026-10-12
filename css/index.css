@@ -1,0 +1,8 @@
+/* FŐOLDAL stílusai */
+.hero { display: flex; flex-wrap: wrap; gap: 30px; align-items: center; }
+.hero-szoveg { flex: 1 1 300px; }
+.kovetkezo { flex: 1 1 300px; background: var(--papir); color: var(--szoveg); border-radius: 10px; padding: 24px; }
+.valasz { padding: 8px 14px; margin: 0 4px 6px 0; border: 2px solid var(--kozepbarna); border-radius: 6px; background: white; font-weight: bold; cursor: pointer; }
+.valasz:hover { background: var(--homok); }
+.harom { display: flex; flex-wrap: wrap; gap: 20px; }
+.harom > div { flex: 1 1 250px; }
