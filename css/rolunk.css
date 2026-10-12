@@ -1,0 +1,7 @@
+/* RÓLUNK stílusai */
+.harom { display: flex; flex-wrap: wrap; gap: 20px; margin-top: 20px; }
+.tag { flex: 1 1 250px; text-align: center; }
+.tag img { width: 160px; height: 160px; object-fit: cover; border-radius: 50%; margin: 0 auto 14px; display: block; }
+.szerep { color: var(--kozepbarna); font-weight: bold; }
+.reszlet { display: none; text-align: left; margin-top: 14px; }
+.reszlet.nyitva { display: block; }
