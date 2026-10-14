@@ -3,5 +3,8 @@
 .kotta { border-top: 1px solid var(--homok); padding: 14px 0; }
 .kotta h3 { margin: 0; }
 .kotta p { margin: 0; color: var(--kozepbarna); }
-.feltoltes { margin-top: 30px; background: var(--homok); }
+.feltoltes { margin-top: 30px; max-width: 500px; background: var(--homok); }
+.szolamok { display: flex; flex-wrap: wrap; gap: 6px 16px; margin-bottom: 14px; }
+.szolamok label { display: flex; align-items: center; gap: 6px; margin: 0; font-weight: normal; font-size: 15px; }
+.szolamok input { width: auto; margin: 0; }
 .gomb[disabled] { opacity: .5; cursor: not-allowed; }

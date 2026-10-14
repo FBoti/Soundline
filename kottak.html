@@ -62,10 +62,19 @@
     <div id="kotta-lista"></div>
 
 
-    <div class="kartya feltoltes">
+    <form id="feltoltes" class="kartya feltoltes">
       <h3>Kotta feltöltése</h3>
-      <button class="gomb">Fájl kiválasztása</button>
-    </div>
+      <label for="f-cim">Mű címe</label>
+      <input id="f-cim" type="text" placeholder="Cím">
+      <label for="f-szerzo">Szerző</label>
+      <input id="f-szerzo" type="text" placeholder="Szerző">
+      <label>Szólam</label>
+      <div id="f-szolamok" class="szolamok"></div>
+      <label for="f-fajl">Kotta fájl</label>
+      <input id="f-fajl" type="file" accept=".pdf,image/*">
+      <button class="gomb gomb-barna" type="submit">Feltöltés</button>
+      <div class="uzenet" id="feltoltes-uzenet"></div>
+    </form>
 
 
   </div>

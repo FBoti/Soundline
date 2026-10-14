@@ -2,3 +2,5 @@
 .esemeny h3 { margin: 6px 0 4px; }
 .esemeny p { margin: 0; color: var(--kozepbarna); }
 .urlap-szelesseg { max-width: 500px; }
+#uj-esemeny { margin-top: 20px; }
+#uj-esemeny .gomb { margin-top: 4px; }
