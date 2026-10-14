@@ -1,9 +1,7 @@
-/* ALAP STÍLUSOK - minden oldal ezt tölti be először.
-   Itt van: színek, betűk, fejléc, lábléc, gombok, űrlapok. */
-
 :root {
   --barna: #3B2A20;
   --kozepbarna: #6B4A32;
+  --sotetarany: #be841f;
   --arany: #C8963E;
   --vilagosarany: #E9C46A;
   --homok: #E6D9C0;
@@ -32,10 +30,10 @@ p { margin: 0 0 14px; }
 a { color: var(--kozepbarna); }
 img { max-width: 100%; height: auto; }
 
-/* Középre igazított tartalom */
+/* Középre igazított */
 .wrap { width: 100%; max-width: 1050px; margin: 0 auto; padding: 0 20px; }
 
-/* ---------- Fejléc ---------- */
+/* Fejléc */
 .fejlec { background: var(--barna); border-bottom: 3px solid var(--arany); }
 .fejlec .wrap { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px; padding-top: 12px; padding-bottom: 12px; }
 .fejlec img { height: 60px; width: auto; }
@@ -44,43 +42,44 @@ img { max-width: 100%; height: auto; }
 .menu a:hover { color: var(--vilagosarany); }
 .menu a.aktiv { background: var(--arany); color: var(--szoveg); }
 
-/* ---------- Oldal tetején lévő sáv ---------- */
+/* Oldal tetején lévő sáv */
 .oldalfej { background: var(--barna); color: var(--papir); padding: 40px 0; }
 .oldalfej h1 { color: var(--papir); }
 .oldalfej p { color: var(--homok); margin: 0; }
 
-/* ---------- Szekciók ---------- */
+/* Szekciók */
 .szekcio { padding: 40px 0; }
 .szekcio-homok { background: var(--homok); }
 
-/* ---------- Gombok ---------- */
-.gomb { display: inline-block; padding: 10px 20px; border: 2px solid var(--arany); border-radius: 6px; background: var(--arany); color: var(--szoveg); font-size: 16px; font-weight: bold; text-decoration: none; cursor: pointer; }
-.gomb:hover { background: var(--vilagosarany); }
+/* Gombok */
+.gomb { display: inline-block; padding: 10px 20px; border: 2px solid var(--arany); border-radius: 6px; background: var(--arany); color: var(--szoveg); font-size: 16px; font-weight: bold; text-decoration: none; cursor: pointer; transition: all 0.3s ease;}
+.gomb:hover { background: var(--vilagosarany); transform: translateY(-3px) scale(1.05);}
+.gomb:active {background: var(--sotetarany); transform: scale(0.98); }
 .gomb-barna { background: var(--barna); border-color: var(--barna); color: var(--papir); }
 .gomb-barna:hover { background: var(--kozepbarna); }
 
-/* ---------- Címkék (próba / fellépés / egyéb) ---------- */
+/* Címkék */
 .cimke { display: inline-block; padding: 2px 12px; border-radius: 20px; font-size: 14px; font-weight: bold; }
 .cimke-proba { background: var(--vilagosarany); color: var(--szoveg); }
 .cimke-fellepes { background: var(--piros); color: white; }
 .cimke-egyeb { background: var(--kozepbarna); color: white; }
 
-/* ---------- Kártya ---------- */
+/* Kártya */
 .kartya { background: white; border: 1px solid var(--homok); border-radius: 10px; padding: 24px; }
 
-/* ---------- Űrlapok ---------- */
+/* Űrlapok */
 label { display: block; font-weight: bold; margin-bottom: 4px; }
 input, select, textarea { width: 100%; padding: 10px; border: 2px solid var(--kozepbarna); border-radius: 6px; font-size: 16px; font-family: inherit; margin-bottom: 14px; }
 textarea { height: 120px; }
 .uzenet { display: none; margin-top: 14px; padding: 12px; background: var(--homok); border-left: 5px solid var(--arany); }
 .uzenet.hiba { border-left-color: var(--piros); }
 
-/* ---------- Szűrő gombok ---------- */
+/* Szűrő gombok */
 .szuro { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 20px; }
 .szuro button { padding: 6px 16px; border: 2px solid var(--kozepbarna); border-radius: 20px; background: white; color: var(--barna); font-size: 15px; font-weight: bold; cursor: pointer; }
 .szuro button.kivalasztott { background: var(--barna); color: var(--papir); border-color: var(--barna); }
 
-/* ---------- Lábléc ---------- */
+/* Lábléc */
 .lablec { background: var(--barna); color: var(--homok); border-top: 3px solid var(--arany); padding: 30px 0; }
 .lablec .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 24px; }
 .lablec img.logo { height: 55px; width: auto; margin-bottom: 8px; }
@@ -90,7 +89,7 @@ textarea { height: 120px; }
 .lablec .kozosseg a img { height: 36px; width: 36px; }
 .kicsi { font-size: 14px; }
 
-/* ---------- Telefonon ---------- */
+/* Telefonon */
 @media (max-width: 700px) {
   h1 { font-size: 30px; }
   .fejlec .wrap { justify-content: center; }

@@ -1,8 +1,7 @@
-/* KOTTÁK stílusai */
 .kereses { display: flex; flex-wrap: wrap; gap: 16px; }
 .kereses > div { flex: 1 1 220px; }
 .kotta { border-top: 1px solid var(--homok); padding: 14px 0; }
 .kotta h3 { margin: 0; }
 .kotta p { margin: 0; color: var(--kozepbarna); }
-.hamarosan { margin-top: 30px; background: var(--homok); }
+.feltoltes { margin-top: 30px; background: var(--homok); }
 .gomb[disabled] { opacity: .5; cursor: not-allowed; }

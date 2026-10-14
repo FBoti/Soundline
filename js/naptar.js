@@ -1,6 +1,3 @@
-// ESEMÉNYEK - nagyon alap JavaScript
-// Az események egy listában vannak. Később ezt az adatbázis fogja adni.
-
 var esemenyek = [
   { cim: "Őszi koncert a főtéren", tipus: "fellepes", datum: "2026-10-24", ido: "17:00", hely: "Városi főtér" },
   { cim: "Megemlékezés a temetőben", tipus: "fellepes", datum: "2026-11-01", ido: "10:30", hely: "Városi köztemető" },

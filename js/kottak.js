@@ -1,6 +1,3 @@
-// KOTTÁK - nagyon alap JavaScript
-// A kották egy listában vannak. Később ezt az adatbázis fogja adni.
-
 var kottak = [
   { cim: "Radetzky-induló", szerzo: "Johann Strauss", szolamok: ["Trombita", "Kürt", "Tuba"] },
   { cim: "Himnusz", szerzo: "Erkel Ferenc", szolamok: ["Minden szólam"] },

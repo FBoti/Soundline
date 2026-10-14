@@ -1,6 +1,3 @@
-// BELÉPÉS ÉS KAPCSOLAT - nagyon alap JavaScript
-// Csak azt ellenőrzi, hogy ki van-e töltve a mező. A backend még nincs bekötve.
-
 function kiir(id, szoveg, hiba) {
   var doboz = document.getElementById(id);
   doboz.textContent = szoveg;

@@ -1,4 +1,3 @@
-/* GALÉRIA stílusai */
 .kepek { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 20px; }
 .kep { flex: 1 1 220px; height: 170px; border-radius: 10px; padding: 12px; color: white; display: flex; align-items: flex-end; font-weight: bold; }
 .szin1 { background: var(--arany); color: var(--szoveg); }

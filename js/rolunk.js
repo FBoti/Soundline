@@ -1,6 +1,3 @@
-// RÓLUNK - nagyon alap JavaScript
-// A "Bővebben" gomb megmutatja vagy elrejti a részleteket.
-
 var gombok = document.querySelectorAll(".bovebben");
 
 for (var i = 0; i < gombok.length; i++) {

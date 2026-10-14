@@ -1,3 +1,2 @@
-/* BELÉPÉS stílusa */
 .ketto { display: flex; flex-wrap: wrap; gap: 24px; }
 .ketto > div { flex: 1 1 320px; }

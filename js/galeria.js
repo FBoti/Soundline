@@ -1,13 +1,12 @@
-// GALÉRIA - nagyon alap JavaScript
-// Egyelőre színes helyőrzők vannak a képek helyén.
-
 var kepek = [
-  { cim: "Őszi koncert", album: "fellepes", szin: "szin1" },
-  { cim: "Majális", album: "fellepes", szin: "szin2" },
+  { cim: "Újévi Koncert", album: "fellepes", szin: "szin1" },
+  { cim: "Március 15.", album: "fellepes", szin: "szin2" },
   { cim: "Heti próba", album: "proba", szin: "szin3" },
   { cim: "Szólamos próba", album: "proba", szin: "szin4" },
-  { cim: "Zenekari kirándulás", album: "kozos", szin: "szin1" },
-  { cim: "Évzáró vacsora", album: "kozos", szin: "szin2" }
+  { cim: "Külföldi koncert", album: "kocert", szin: "szin3" },
+  { cim: "Zenekari kirándulás", album: "kirandulas", szin: "szin4" },
+  { cim: "Nyárzáró koncert", album: "koncert", szin: "szin1" },
+  { cim: "Október 6.", album: "koncert", szin: "szin2" }
 ];
 
 function megjelenit(album) {
