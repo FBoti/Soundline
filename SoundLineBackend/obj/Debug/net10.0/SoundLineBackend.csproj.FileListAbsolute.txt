@@ -144,10 +144,10 @@ E:\Backend\SoundLineBackend\SoundLineBackend\obj\Debug\net10.0\staticwebassets.b
 E:\Backend\SoundLineBackend\SoundLineBackend\obj\Debug\net10.0\staticwebassets.development.json
 E:\Backend\SoundLineBackend\SoundLineBackend\obj\Debug\net10.0\staticwebassets.build.endpoints.json
 E:\Backend\SoundLineBackend\SoundLineBackend\obj\Debug\net10.0\swae.build.ex.cache
-E:\Backend\SoundLineBackend\SoundLineBackend\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
 E:\Backend\SoundLineBackend\SoundLineBackend\obj\Debug\net10.0\SoundLin.BB88759A.Up2Date
 E:\Backend\SoundLineBackend\SoundLineBackend\obj\Debug\net10.0\SoundLineBackend.dll
 E:\Backend\SoundLineBackend\SoundLineBackend\obj\Debug\net10.0\refint\SoundLineBackend.dll
 E:\Backend\SoundLineBackend\SoundLineBackend\obj\Debug\net10.0\SoundLineBackend.pdb
 E:\Backend\SoundLineBackend\SoundLineBackend\obj\Debug\net10.0\SoundLineBackend.genruntimeconfig.cache
 E:\Backend\SoundLineBackend\SoundLineBackend\obj\Debug\net10.0\ref\SoundLineBackend.dll
+E:\Backend\SoundLineBackend\SoundLineBackend\obj\Debug\net10.0\SoundLineBackend.sourcelink.json
