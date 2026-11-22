@@ -1,6 +1,16 @@
 [
   {
     "ContainingType": "SoundLineBackend.Controllers.SoundLineBackend.Controllers.UserController",
+    "Method": "GetAllUsers",
+    "RelativePath": "api/User",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SoundLineBackend.Controllers.SoundLineBackend.Controllers.UserController",
     "Method": "Register",
     "RelativePath": "api/User/register",
     "HttpMethod": "POST",

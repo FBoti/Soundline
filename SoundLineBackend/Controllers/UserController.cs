@@ -55,6 +55,23 @@ namespace SoundLineBackend.Controllers
                     userId = user.Id
                 });
             }
+
+            [HttpGet]
+            public async Task<IActionResult> GetAllUsers()
+            {
+                var users = await _context.Users.ToListAsync();
+
+                var userDtos = users.Select(u => new UserResponseDTO
+                {
+                    Id = u.Id,
+                    Username = u.Username,
+                    Email = u.Email,
+                    FirstName = u.FirstName,
+                    LastName = u.LastName,
+                    CreateTime = u.CreateTime
+                }).ToList();
+                return Ok(userDtos);
+            }
         }
     }
 }
