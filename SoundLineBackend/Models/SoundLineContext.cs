@@ -149,6 +149,9 @@ public partial class SoundLineContext : DbContext
             entity.Property(e => e.PasswordHash)
                 .HasMaxLength(255)
                 .HasColumnName("password_hash");
+            entity.Property(e => e.PasswordSalt)
+                .HasMaxLength(255)
+                .HasColumnName("password_salt");
             entity.Property(e => e.Username)
                 .HasMaxLength(25)
                 .HasColumnName("username");
