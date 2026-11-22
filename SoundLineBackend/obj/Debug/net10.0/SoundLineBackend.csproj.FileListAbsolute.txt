@@ -151,3 +151,13 @@ E:\Backend\SoundLineBackend\SoundLineBackend\obj\Debug\net10.0\SoundLineBackend.
 E:\Backend\SoundLineBackend\SoundLineBackend\obj\Debug\net10.0\SoundLineBackend.genruntimeconfig.cache
 E:\Backend\SoundLineBackend\SoundLineBackend\obj\Debug\net10.0\ref\SoundLineBackend.dll
 E:\Backend\SoundLineBackend\SoundLineBackend\obj\Debug\net10.0\SoundLineBackend.sourcelink.json
+E:\Backend\SoundLineBackend\SoundLineBackend\bin\Debug\net10.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\Backend\SoundLineBackend\SoundLineBackend\bin\Debug\net10.0\Microsoft.Bcl.Cryptography.dll
+E:\Backend\SoundLineBackend\SoundLineBackend\bin\Debug\net10.0\Microsoft.IdentityModel.Abstractions.dll
+E:\Backend\SoundLineBackend\SoundLineBackend\bin\Debug\net10.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Backend\SoundLineBackend\SoundLineBackend\bin\Debug\net10.0\Microsoft.IdentityModel.Logging.dll
+E:\Backend\SoundLineBackend\SoundLineBackend\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.dll
+E:\Backend\SoundLineBackend\SoundLineBackend\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Backend\SoundLineBackend\SoundLineBackend\bin\Debug\net10.0\Microsoft.IdentityModel.Tokens.dll
+E:\Backend\SoundLineBackend\SoundLineBackend\bin\Debug\net10.0\System.IdentityModel.Tokens.Jwt.dll
+E:\Backend\SoundLineBackend\SoundLineBackend\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
