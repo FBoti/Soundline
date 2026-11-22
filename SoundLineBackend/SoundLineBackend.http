@@ -1,0 +1,6 @@
+@SoundLineBackend_HostAddress = http://localhost:5218
+
+GET {{SoundLineBackend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
