@@ -1,8 +1,24 @@
 [
   {
     "ContainingType": "SoundLineBackend.Controllers.SoundLineBackend.Controllers.UserController",
+    "Method": "Delete",
+    "RelativePath": "api/User/DeleteUser",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SoundLineBackend.Controllers.SoundLineBackend.Controllers.UserController",
     "Method": "GetAllUsers",
-    "RelativePath": "api/User",
+    "RelativePath": "api/User/GetUser",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

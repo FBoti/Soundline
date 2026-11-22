@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SoundLineBackend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+74cd12de7c8c52272fd008c7e57714c5f316d224")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0b5269f0e244b9288269d2810d69ab303beb9ed6")]
 [assembly: System.Reflection.AssemblyProductAttribute("SoundLineBackend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SoundLineBackend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

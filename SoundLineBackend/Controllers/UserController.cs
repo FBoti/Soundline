@@ -56,7 +56,7 @@ namespace SoundLineBackend.Controllers
                 });
             }
 
-            [HttpGet]
+            [HttpGet("GetUser")]
             public async Task<IActionResult> GetAllUsers()
             {
                 var users = await _context.Users.ToListAsync();
@@ -71,6 +71,22 @@ namespace SoundLineBackend.Controllers
                     CreateTime = u.CreateTime
                 }).ToList();
                 return Ok(userDtos);
+            }
+
+            [HttpDelete("DeleteUser")]
+            public async Task<IActionResult> Delete([FromQuery] int id)
+            {
+                var user = await _context.Users.FirstOrDefaultAsync(u => u.Id == id);
+
+                if (user != null)
+                {
+                    _context.Users.Remove(user);
+                    await _context.SaveChangesAsync();
+
+                    return StatusCode(200, "Sikeres törlés");
+                }
+
+                return NotFound();
             }
         }
     }
