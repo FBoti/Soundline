@@ -1,9 +1,0 @@
-{
-  "esemenyek": [
-    { "id": 1, "cim": "Őszi koncert a főtéren", "tipus": "fellepes", "datum": "2026-10-24", "ido": "17:00", "hely": "Városi főtér" },
-    { "id": 2, "cim": "Megemlékezés a temetőben", "tipus": "fellepes", "datum": "2026-11-01", "ido": "10:30", "hely": "Városi köztemető" },
-    { "id": 3, "cim": "Szólamos próba: rézfúvók", "tipus": "proba", "datum": "2026-11-05", "ido": "17:30", "hely": "Zeneiskola, kisterem" },
-    { "id": 4, "cim": "Hangszerkarbantartás", "tipus": "egyeb", "datum": "2026-11-14", "ido": "09:00", "hely": "Zenekari raktár" },
-    { "id": 5, "cim": "Heti próba: karácsonyi műsor", "tipus": "proba", "datum": "2026-11-26", "ido": "17:30", "hely": "Zeneiskola, nagyterem" }
-  ]
-}
