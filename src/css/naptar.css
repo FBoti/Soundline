@@ -1,0 +1,16 @@
+.esemeny { background: white; border: 1px solid var(--homok); border-radius: 10px; padding: 16px 20px; margin-bottom: 12px; }
+.esemeny h3 { margin: 6px 0 4px; }
+.esemeny p { margin: 0; color: var(--kozepbarna); }
+.urlap-szelesseg { max-width: 500px; }
+#uj-esemeny { margin-top: 20px; }
+#uj-esemeny .gomb { margin-top: 4px; }
+.esemeny .gomb { margin-top: 10px; padding: 6px 14px; font-size: 15px; }
+.esemeny-reszlet { border-left: 5px solid var(--arany); }
+.hivas { margin-top: 16px; font-size: 14px; color: var(--kozepbarna); }
+.naplo { margin-top: 28px; }
+.naplo-tetel { background: white; border: 1px solid var(--homok); border-radius: 8px; padding: 10px 14px; margin-bottom: 8px; }
+.naplo-tetel summary { cursor: pointer; display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; font-size: 14px; }
+.naplo-tetel pre { background: #f6f1e7; padding: 10px; border-radius: 6px; overflow-x: auto; font-size: 13px; max-height: 260px; }
+.statusz { font-weight: bold; }
+.statusz.ok { color: #2e7d32; }
+.statusz.hiba { color: #b00020; }

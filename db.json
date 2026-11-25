@@ -1,0 +1,19 @@
+{
+  "esemenyek": [
+    { "id": 1, "cim": "Őszi koncert a főtéren", "tipus": "fellepes", "datum": "2027-10-24", "ido": "17:00", "hely": "Városi főtér" },
+    { "id": 2, "cim": "Megemlékezés a temetőben", "tipus": "fellepes", "datum": "2027-11-01", "ido": "10:30", "hely": "Városi köztemető" },
+    { "id": 3, "cim": "Szólamos próba: rézfúvók", "tipus": "proba", "datum": "2027-11-05", "ido": "17:30", "hely": "Zeneiskola, kisterem" },
+    { "id": 4, "cim": "Hangszerkarbantartás", "tipus": "egyeb", "datum": "2027-11-14", "ido": "09:00", "hely": "Zenekari raktár" },
+    { "id": 5, "cim": "Heti próba: karácsonyi műsor", "tipus": "proba", "datum": "2027-11-26", "ido": "17:30", "hely": "Zeneiskola, nagyterem" },
+    { "id": 6, "cim": "Adventi koncert", "tipus": "fellepes", "datum": "2027-12-05", "ido": "18:00", "hely": "Belvárosi templom" },
+    { "id": 7, "cim": "Fellépés a karácsonyi vásáron", "tipus": "fellepes", "datum": "2027-12-18", "ido": "15:00", "hely": "Városi karácsonyi vásár, színpad" },
+    { "id": 8, "cim": "Szilveszteri köszöntő", "tipus": "fellepes", "datum": "2027-12-31", "ido": "23:30", "hely": "Városháza tér" },
+    { "id": 9, "cim": "Újévi koncert", "tipus": "fellepes", "datum": "2028-01-01", "ido": "11:00", "hely": "Művelődési ház, nagyterem" },
+    { "id": 10, "cim": "Március 15. megemlékezés", "tipus": "fellepes", "datum": "2028-03-15", "ido": "10:00", "hely": "Kossuth tér" },
+    { "id": 11, "cim": "Tavaszi próbahétvége", "tipus": "proba", "datum": "2028-03-18", "ido": "09:00", "hely": "Zeneiskola, nagyterem" },
+    { "id": 12, "cim": "Tavaszi koncert", "tipus": "fellepes", "datum": "2028-04-22", "ido": "19:00", "hely": "Művelődési ház, nagyterem" },
+    { "id": 13, "cim": "Pünkösdi felvonulás", "tipus": "fellepes", "datum": "2028-06-04", "ido": "14:00", "hely": "Belváros, felvonulási útvonal" },
+    { "id": 14, "cim": "Nyári szabadtéri koncert", "tipus": "fellepes", "datum": "2028-07-08", "ido": "20:00", "hely": "Szabadtéri színpad" },
+    { "id": 15, "cim": "Szólamvezetői értekezlet", "tipus": "egyeb", "datum": "2028-07-15", "ido": "18:00", "hely": "Zeneiskola, kisterem" }
+  ]
+}
