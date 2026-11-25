@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Gép: mariadb:3306
--- Létrehozás ideje: 2026. Nov 16. 16:43
+-- Létrehozás ideje: 2026. Nov 25. 14:23
 -- Kiszolgáló verziója: 11.8.9-MariaDB-ubu2404
 -- PHP verzió: 8.3.36
 
@@ -75,6 +75,7 @@ CREATE TABLE `users` (
   `username` varchar(25) NOT NULL,
   `email` varchar(50) NOT NULL,
   `password_hash` varchar(255) NOT NULL,
+  `password_salt` varchar(255) NOT NULL,
   `first_name` varchar(25) NOT NULL,
   `last_name` varchar(25) NOT NULL,
   `createTime` timestamp NULL DEFAULT current_timestamp()
